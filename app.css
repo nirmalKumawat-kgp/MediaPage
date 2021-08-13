@@ -25,7 +25,7 @@ img {
   position: relative;
   font-weight: 200;
   background: no-repeat center;
-  background-size: cover;
+  background-size: contain;
 }
 
 
@@ -34,10 +34,9 @@ div.container.recentActivitiesCarousel {
   font-size: 1rem;
   position: absolute;
   bottom: 7%;
-  left: 41%;
   right: 0;
-  color: rgba(255, 255, 255, 0.8);
-  text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.9);
+  text-shadow: 0.5rem 0.5rem 1rem rgba(255,255,255, 0.7);
 }
 div.container.recentActivitiesCarousel h3 {
   font-size: 1.5rem;
@@ -45,7 +44,6 @@ div.container.recentActivitiesCarousel h3 {
 }
 .xyz{
   display: inline-block;
-  margin: 0 3rem;
 }
 .blogHeading{
   padding: 1.5rem 0rem 1rem 0rem;
@@ -91,6 +89,7 @@ p.cardText{
   box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.2);
   font-weight: 400;
   padding: 0.25rem .5rem;
+  border-radius: 0.5rem;
 }
 .card-deck button:hover{
   border: none;
@@ -144,7 +143,7 @@ div.recentNewsletters {
   box-shadow: 0.5rem 0.5rem 0.8rem rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   display: block;
   border-radius: 0.8rem;
 }
@@ -181,6 +180,7 @@ div.info button.modal-btn {
   font-weight: 600;
   transition-property: linear-gradient;
   transition-duration: 1s;
+  border-radius: 0.5rem;
 }
 div.info button.modal-btn:hover {
   background-image: linear-gradient(to right, #fee180 0%, #fec301 100%);
